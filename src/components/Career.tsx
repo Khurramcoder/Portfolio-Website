@@ -1,9 +1,14 @@
 import "./styles/Career.css";
+import MathematicalModels from "./MathematicalModels";
+import { Suspense } from "react";
 
 const Career = () => {
   return (
-    <div className="career-section section-container">
-      <div className="career-container">
+    <div className="career-section section-container" style={{ position: "relative" }}>
+      <Suspense fallback={null}>
+        <MathematicalModels />
+      </Suspense>
+      <div className="career-container" style={{ zIndex: 1, position: "relative" }}>
         <h2>
           My career <span>&</span>
           <br /> experience
@@ -15,43 +20,37 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Assistant Professor of Mathematics</h4>
+                <h5>Govt. Degree College, Chaman</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2018 - Now</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Leading academic instruction in mathematics while engaging in advanced research in fractional calculus, CAGD, and AI integration for complex problem solving.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Lecturer in Mathematics (B-17)</h4>
+                <h5>Govt. Degree College, Brewery & Govt. Musa College, Quetta</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2008 - 2018</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Delivered foundational and advanced mathematics courses, cultivating a strong analytical framework for hundreds of students.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Early Career Instruction</h4>
+                <h5>St. Francis Grammar School | APS Seven Streams, Quetta</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>Early</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Built early career teaching experience, emphasizing foundational academic concepts to younger students.
             </p>
           </div>
         </div>

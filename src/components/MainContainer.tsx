@@ -11,6 +11,7 @@ import Work from "./Work";
 import setSplitText from "./utils/splitText";
 
 const TechStack = lazy(() => import("./TechStack"));
+const MathematicalModels = lazy(() => import("./MathematicalModels"));
 
 const MainContainer = ({ children }: PropsWithChildren) => {
   const [isDesktopView, setIsDesktopView] = useState<boolean>(

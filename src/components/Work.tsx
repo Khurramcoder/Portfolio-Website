@@ -53,21 +53,28 @@ const Work = () => {
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {[...Array(6)].map((_value, index) => (
+          {[
+            { name: "SigmaMath-Visual-Core (8B)", category: "AI & LLM Engineering", tools: "Transformers, PyTorch, LLaMA", image: "/images/sigmamath.png" },
+            { name: "Qwen-GeoGebra-Coder-7B", category: "AI & Math Visualization", tools: "GeoGebra, Qwen, SymPy", image: "/images/geogebra.png" },
+            { name: "Shaheen-Gemma4-Urdu (5B)", category: "Vision-Language Models & OCR", tools: "Gemma, Nastaliq OCR, RAG", image: "/images/shaheen_logo.png" },
+            { name: "Fractional-Calculus", category: "Computational Mathematics Software", tools: "Python, NumPy, SciPy", image: "/images/fderiv.gif" },
+            { name: "IncompressibleNavierStokes.jl", category: "Fluid Dynamics Solver", tools: "Julia, High-performance Computing", image: "/images/TaylorGreenVortex3D.png" },
+            { name: "Allama-Iqbal-RAG", category: "Cultural AI Preservation", tools: "FAISS, Llama 3.1, LangChain", image: "/images/iqbal_rag.png" }
+          ].map((project, index) => (
             <div className="work-box" key={index}>
               <div className="work-info">
                 <div className="work-title">
                   <h3>0{index + 1}</h3>
 
                   <div>
-                    <h4>Project Name</h4>
-                    <p>Category</p>
+                    <h4>{project.name}</h4>
+                    <p>{project.category}</p>
                   </div>
                 </div>
                 <h4>Tools and features</h4>
-                <p>Javascript, TypeScript, React, Threejs</p>
+                <p>{project.tools}</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <WorkImage image={project.image} alt="" />
             </div>
           ))}
         </div>

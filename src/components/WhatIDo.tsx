@@ -87,24 +87,21 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>DEVELOP</h3>
-              <h4>Description</h4>
+              <h3>MATHEMATICS</h3>
+              <h4>Computational Mathematics</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                Expertise in Fractional Calculus (Grünwald-Letnikov), Numerical Solutions for Differential Equations, and Incompressible Navier-Stokes solvers. Strong background in Geometric Modeling (CAGD).
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Css</div>
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
+                <div className="what-tags">Fractional Calculus</div>
+                <div className="what-tags">CAGD</div>
+                <div className="what-tags">MATLAB</div>
+                <div className="what-tags">Julia</div>
+                <div className="what-tags">Python</div>
+                <div className="what-tags">C++</div>
+                <div className="what-tags">Navier-Stokes Solvers</div>
+                <div className="what-tags">Scientific Computing</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -128,22 +125,21 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
-              <h4>Description</h4>
+              <h3>AI & NLP</h3>
+              <h4>Artificial Intelligence & Urdu NLP</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                Specialist in LLM Fine-tuning (Gemma, Qwen, Llama), Multimodal Vision Models, and Retrieval-Augmented Generation (RAG). Leading contributor to Urdu high-accuracy Nastaliq OCR and Urdu-native LLMs.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
-                <div className="what-tags">UI Design</div>
-                <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
+                <div className="what-tags">PyTorch</div>
+                <div className="what-tags">Transformers</div>
+                <div className="what-tags">LangChain</div>
+                <div className="what-tags">FAISS</div>
+                <div className="what-tags">Ollama</div>
+                <div className="what-tags">LLM Fine-tuning</div>
+                <div className="what-tags">Vision-Language Models</div>
+                <div className="what-tags">Urdu OCR & NLP</div>
               </div>
               <div className="what-arrow"></div>
             </div>
